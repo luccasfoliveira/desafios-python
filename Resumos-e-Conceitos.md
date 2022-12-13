@@ -1,7 +1,7 @@
 # Resumos e Conceitos
 # Índice 
 
-
+* [Página Principal](README.md)
 
 * [Entrada e Saída](#Entrada-e-Saída)
 * [Sequenciais](#Sequenciais)
