@@ -21,13 +21,13 @@
 
 ## Exercícios:
 
-* [Entrada e Saída](#entrada-e-saida.md)
-* [Sequenciais](#Sequenciais.md)
-* [Estrutura de Controle - Condições](#estrutura-de-controle---condições.md)
+* [Entrada e Saída](exercicios-entrada-e-saida/entrada-e-saida.md)
+* [Sequenciais](exercicios-sequencial/sequencial.md)
+* [Estrutura de Controle - Condições](estrutura-de-controle---condições.md)
 * [Estrutura de Repetição - While](exercicios-while/while.md)
 * [Estrutura de Repetição - For](exercicios-for/for.md)
 * [Listas](exercicios-lista/lista.md)
-* [Matrizes](#matrizes.md)
-* [Dicionários](#dicionarios.md)
-* [Tuplas](tuplas.md)
-* [Funções](funcoes.md)
+* [Matrizes](exercicios-matriz/matriz.md)
+* [Dicionários](exercicios-dicionario/dicionario.md)
+* [Tuplas](exercicios-tupla/tupla.md)
+* [Funções](exercicios-funcao/funcao.md)
