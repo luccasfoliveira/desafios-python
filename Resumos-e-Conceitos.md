@@ -3,7 +3,7 @@
 
 
 
-* [Dicionários](#dicionarios)
+* [Dicionários](#t-dicionarios)
 * [Entrada e Saída](#Entrada-e-Saída)
 * [Sequenciais](#Sequenciais)
 * [Estrutura de Controle - Condições](#Estrutura-de-Controle---Condições)
@@ -13,7 +13,7 @@
 * [Tuplas](#Tuplas)
 * [Funções](#Funcoes)
 
-## [Dicionários](#dicionarios)
+## [Dicionários](#t-dicionarios)
 
 Dicionário - type(dict) - {} - chave - valor
 ___________
