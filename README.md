@@ -25,6 +25,7 @@
 * [Sequenciais](#Sequenciais)
 * [Estrutura de Controle - Condições](#Estrutura-de-Controle---Condições)
 * [Estrutura de Repetições](#Estrutura-de-Repetições)
+*           [While](exercicios-while/while.md)  
 * [Listas](#Listas)
 * [Matrizes](#Matrizes)
 * [Dicionários](#Dicionarios)
