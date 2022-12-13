@@ -29,5 +29,5 @@
 * [Listas](#Listas)
 * [Matrizes](#Matrizes)
 * [Dicionários](#Dicionarios)
-* [Tuplas](#Tuplas)
+* [Tuplas](Tuplas.md)
 * [Funções](#Funcoes)
