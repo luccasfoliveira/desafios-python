@@ -1,6 +1,6 @@
 # Exercícios de Repetição feitos com While:
 
-*[Elabore um algoritmo que leia um número e calcule a soma dos número menores ou iguais a ele, começando pelo 1. 
+1.) [Elabore um algoritmo que leia um número e calcule a soma dos número menores ou iguais a ele, começando pelo 1. 
 Ex. para num == 10, o algoritmo devera calcular: 1+2+3+4+5+6+7+8+9+10= 55](Ex_001.py)
 _____________________________________________________________________________
 2.) Elabore um algoritmo para mostrar a tabuada de um número N qualquer lido pelo teclado. Por exemplo, se N == 7, deverá ser mostrado: 7*1, 7*2, 7*3, ... 7*10.
