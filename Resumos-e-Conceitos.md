@@ -14,7 +14,7 @@
 * [Tuplas](#Tuplas)
 * [Funções](#Funcoes)
 
-# [Dicionários](#dicionários)
+# Dicionários
 
 Dicionário - type(dict) - {} - chave - valor
 
@@ -123,8 +123,7 @@ que no conceito Dicionário é de suma importância.
 
 _____________________________________________________________________
 
- 
-# Tupla
+ # Tupla
  
 Tupla - type(tuple) - () - imutável
 
