@@ -17,6 +17,10 @@
 # Índice 
 
 * [Resumos e Conceitos](Resumos-e-Conceitos.md)
+
+
+## Exercícios:
+
 * [Entrada e Saída](#Entrada-e-Saída)
 * [Sequenciais](#Sequenciais)
 * [Estrutura de Controle - Condições](#Estrutura-de-Controle---Condições)
