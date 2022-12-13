@@ -124,7 +124,7 @@ _____________________________________________________________________
 
 Tupla - type(tuple) - () - imutável
 ___________
-<Conceito>:
+###Conceito:
 
 A tulpla é uma estrutura de dado que tem funcionalidades
 também parecidas com as listas, porém, tuplas são imutáveis
@@ -162,7 +162,7 @@ quanto com alguns elementos, vejamos:
 	tupla = (1,)
 ~~~
 __________________
-<Alguns Comandos>:
+### Alguns Comandos:
 
 Os comandos feitos em tuplas são praticamentos iguais usados
 em listas, excetos aqueles que alteram a estrutura, portanto,
