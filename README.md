@@ -11,7 +11,7 @@
 # :hammer: Funcionalidades do projeto
 
 - `1ª Funcionalidade`: Expor meu conhecimento gradativamente
-- `2ª Funcionalidade`: Ajudar as pessoas que estão começando
+- `2ª Funcionalidade`: Ajudar as pessoas de alguma forma
 
 
 # Índice 
