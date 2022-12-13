@@ -66,15 +66,14 @@ métodos <dicionario>.items(); <dicionario>.keys(); e
 <dicionario>.values() são métodos para termos acesso aos 
 respectivos valores:
 
-	<dicionario>.items() - Irá gerar uma lista contendo 
-	todos os elementos (dentro de uma tupla) do dicionário;
+~~~python
+	<dicionario>.items() # Irá gerar uma lista contendo todos os elementos (dentro de uma tupla) do dicionário;
 
-	<dicionario>.keys() - Irá gerar uma lista com todas as 
-	chaves do dicionário;
+	<dicionario>.keys() # Irá gerar uma lista com todas as chaves do dicionário;
 
-	<dicionario>.values() - Irá gerar uma lista com todas 
-	os valores do dicionário.
-
+	<dicionario>.values() # Irá gerar uma lista com todas os valores do dicionário.
+~~~
+		
 Para estes três métodos, você pode usar o <for> desta maneira:
 
 ~~~python
