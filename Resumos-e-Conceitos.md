@@ -4,7 +4,7 @@
 
 Dicionário - type(dict) - {} - chave - valor
 ___________
-####Conceito:
+#### **Conceito:**
 
 O Dicionário é uma estrutura de dados parecida com a Lista,
 nele você armazena elementos compostos por chaves e valores
@@ -36,7 +36,7 @@ automaticamente adiciona esta chave e valor à estrutua, se
 não, ele atualiza o valor correspondente a chave.'''
 ~~~
 __________________
-####Alguns Comandos:
+#### **Alguns Comandos:**
 
 Alguns comandos, métodos e funcionalidades para manipulação 
 desta estrutura:
