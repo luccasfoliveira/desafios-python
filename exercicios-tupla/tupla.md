@@ -1,7 +1,7 @@
 
  # Tuplas
  
-Tupla - type(tuple) - () - imutável
+Tupla - type(tuple) - (  ) - imutável
 
 
 Conceito
