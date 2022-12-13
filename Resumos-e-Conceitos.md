@@ -123,7 +123,7 @@ que no conceito Dicionário é de suma importância.
 
 _____________________________________________________________________
 
- # Tupla
+ # Tuplas
  
 Tupla - type(tuple) - () - imutável
 
