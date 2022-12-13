@@ -16,7 +16,7 @@
 
 # Índice 
 
-* [Resumos e Conceitos](#Resumos-e-Conceitos)
+* [Resumos e Conceitos](Resumos-e-Conceitos.md)
 * [Entrada e Saída](#Entrada-e-Saída)
 * [Sequenciais](#Sequenciais)
 * [Estrutura de Controle - Condições](#Estrutura-de-Controle---Condições)
@@ -26,5 +26,3 @@
 * [Dicionários](#Dicionarios)
 * [Tuplas](#Tuplas)
 * [Funções](#Funcoes)
-
-## [Resumos e Conceitos](#Resumos-e-Conceitos)
