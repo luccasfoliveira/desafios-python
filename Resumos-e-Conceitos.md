@@ -1,8 +1,7 @@
-## [Resumos e Conceitos](#Resumos-e-Conceitos)
-
+# Resumos e Conceitos
 # Índice 
 
-* [Página Principal](#Pagina-Principal)
+* [Página Principal](#README.md)
 
 
 * [Entrada e Saída](#Entrada-e-Saída)
