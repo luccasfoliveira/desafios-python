@@ -1,4 +1,5 @@
 # Resumos e Conceitos
+### Vale destacar que os textos são de minha autoria, e baseados nos meus estudos, desconsidere (se houver) erros gramaticais, e não leve este conteúdo a rigor
 
 # Índice
 
