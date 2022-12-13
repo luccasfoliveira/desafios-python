@@ -77,11 +77,12 @@ respectivos valores:
 
 Para estes três métodos, você pode usar o <for> desta maneira:
 
+~~~python
 	# note que .items() gera chave e valor, portanto
 	# pode usar duas variáveis auxiliares (chave, valor)
 	for chave, valor in <dicionario>.items():
 		print(chave, valor)
-~~~python
+		
 	for chave in <dicionario>.keys():
 		print(chave)
 
