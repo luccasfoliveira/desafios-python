@@ -3,14 +3,13 @@
 
 * [Página Principal](#README.md)
 
-
+* [Dicionários](#Dicionarios)
 * [Entrada e Saída](#Entrada-e-Saída)
 * [Sequenciais](#Sequenciais)
 * [Estrutura de Controle - Condições](#Estrutura-de-Controle---Condições)
 * [Estrutura de Repetições](#Estrutura-de-Repetições)
 * [Listas](#Listas)
 * [Matrizes](#Matrizes)
-* [Dicionários](#Dicionarios)
 * [Tuplas](#Tuplas)
 * [Funções](#Funcoes)
 
