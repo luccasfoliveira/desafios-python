@@ -29,9 +29,9 @@ agrupado por uma chave (na qual seria o índice) e um valor
 por suas respectivas chaves, onde cada chave pode ser
 qualquer tipo de valor (int, float, str, tupla, lista...),
 diferente das listas, onde sua forma de acesso aos elementos
-são por índices de valor inteiro (lista[<int>]), deste modo,
+são por índices de valor inteiro (lista[int]), deste modo,
 para acessarmos um elemento (valor ou conteúdo) de um dicionário,
-basta você acessar atravéz da sua chave (dicionario[<chave>]),
+basta você acessar atravéz da sua chave (dicionario[chave]),
 onde o resultado será o valor.
 ____________________________________________________________
 Há algumas maneiras de você criar um dicionário, tanto vazio
@@ -45,7 +45,7 @@ quanto com alguns elementos, ou então ir adicionando:
  dicionario = {"Nome": "Luccas", "Idade": 27, "Cursando": True}
 
  # adicionando elementos ao dicionario
- dicionario[<chave>] = <valor>
+ dicionario[<chave>] = valor
  '''neste caso se a chave não estiver no dicionário, o Python
  automaticamente adiciona esta chave e valor à estrutua, se
  não, ele atualiza o valor correspondente a chave.'''
@@ -63,23 +63,23 @@ valor) no dicionário, agora iremos realizar a remoção de
 elementos do dict. A remoção pode ser feita em três formas
 similares com os métodos:
 
-<dicionario>.pop(<chave>);
+<dicionario>.pop(chave);
 <dicionario>.popitem();
-e o comando del <dicionario[<chave>]>:
+e o comando del dicionario[chave]:
 
- .pop(<chave>) realiza a remoção de um elemento
+ .pop(chave) realiza a remoção de um elemento
  específico e o retorna com o valor desejado;
 
  .popitem() realiza a remoção do último elemento do
  dicionário, e também retorna o valor removido; e
 
- o comando del <dicionario[<chave>]> apenas remove o
+ o comando del dicionario[chave] apenas remove o
  elemento desejado.
 
 Sabendo adicionar e remover elementos de um dicionário, agora
 vamos usar alguns métodos para acessar esses elementos. Os
-métodos <dicionario>.items(); <dicionario>.keys(); e
-<dicionario>.values() são métodos para termos acesso aos
+métodos dicionario.items(); dicionario.keys(); e
+dicionario.values() são métodos para termos acesso aos
 respectivos valores:
 
 ~~~python
@@ -106,14 +106,14 @@ Para estes três métodos, você pode usar o <for> desta maneira:
 ~~~
 
 Outra maneira de você acessar um dicionário é usando o método
-<dicinario>.get(<chave>) - este métodos é muito útil quando
+<dicinario>.get(chave) - este métodos é muito útil quando
 você quer saber se um elemento está contido no dicionário:
 
- Se usarmos <dicinario>.get(<chave>) e esta chave está no
+ Se usarmos <dicinario>.get(chave) e esta chave está no
  dicionário, ele irá retornar o valor, senão, retornará
  None (None = nenhum valor, nada);
 
- Senão se definirmos <dicinario>.get(<chave>, 0) ele irá
+ Senão se definirmos <dicinario>.get(chave, 0) ele irá
  retornar o valor se houver, senão, o valor do segundo
  parâmetro, se não for especificado o segundo parâmetro,
  retornará None.
