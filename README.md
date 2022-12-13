@@ -26,3 +26,5 @@
 * [Dicionários](#Dicionarios)
 * [Tuplas](#Tuplas)
 * [Funções](#Funcoes)
+
+[Resumos e Conceitos](Resumos-e-Conceitos)
