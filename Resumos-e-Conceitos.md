@@ -19,7 +19,7 @@
 Dicionário - type(dict) - {} - chave - valor
 ___________
 
-#### **Conceito:**
+#### Conceito
 
 O Dicionário é uma estrutura de dados parecida com a Lista,
 nele você armazena elementos compostos por chaves e valores
