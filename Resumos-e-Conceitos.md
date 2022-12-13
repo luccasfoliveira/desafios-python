@@ -1,6 +1,21 @@
 ## [Resumos e Conceitos](#Resumos-e-Conceitos)
 
-### **Dicionário**
+# Índice 
+
+* [Página Principal](#Pagina-Principal)
+
+
+* [Entrada e Saída](#Entrada-e-Saída)
+* [Sequenciais](#Sequenciais)
+* [Estrutura de Controle - Condições](#Estrutura-de-Controle---Condições)
+* [Estrutura de Repetições](#Estrutura-de-Repetições)
+* [Listas](#Listas)
+* [Matrizes](#Matrizes)
+* [Dicionários](#Dicionarios)
+* [Tuplas](#Tuplas)
+* [Funções](#Funcoes)
+
+## [Dicionários](#Dicionarios)
 
 Dicionário - type(dict) - {} - chave - valor
 ___________
