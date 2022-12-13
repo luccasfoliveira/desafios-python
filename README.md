@@ -26,7 +26,7 @@
 * [Estrutura de Controle - Condições](#estrutura-de-controle---condições.md)
 * [Estrutura de Repetição - While](exercicios-while/while.md)
 * [Estrutura de Repetição - For](exercicios-for/for.md)
-* [Listas](exercicios-lista/listas.md)
+* [Listas](exercicios-lista/lista.md)
 * [Matrizes](#matrizes.md)
 * [Dicionários](#dicionarios.md)
 * [Tuplas](tuplas.md)
