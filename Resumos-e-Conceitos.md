@@ -1,5 +1,8 @@
-# Resumos e Conceitos
-### Vale destacar que os textos são de minha autoria, e baseados nos meus estudos, desconsidere (se houver) erros gramaticais, e não leve este conteúdo a rigor
+# Resumos e Conceitos 📚📚📚
+
+<h3 align="center"> 
+    🚨  Vale destacar que os textos são de minha autoria, e baseados nos meus estudos, desconsidere (se houver) erros gramaticais, e não leve este conteúdo a rigor  🚨
+</h3>
 
 # Índice
 
