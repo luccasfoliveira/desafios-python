@@ -16,7 +16,7 @@
 
 # Dicionários
 
-Dicionário - type(dict) - {} - chave - valor
+Dicionário - type(dict) - {   } - chave - valor
 
 
 Conceito
@@ -125,7 +125,7 @@ _____________________________________________________________________
 
  # Tuplas
  
-Tupla - type(tuple) - () - imutável
+Tupla - type(tuple) - (   ) - imutável
 
 
 Conceito
