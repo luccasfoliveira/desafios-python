@@ -17,9 +17,9 @@
 ## [Dicionários](#dicionários)
 
 Dicionário - type(dict) - {} - chave - valor
-___________
 
-#### Conceito
+
+Conceito
 
 O Dicionário é uma estrutura de dados parecida com a Lista,
 nele você armazena elementos compostos por chaves e valores
@@ -51,9 +51,9 @@ quanto com alguns elementos, ou então ir adicionando:
  não, ele atualiza o valor correspondente a chave.'''
 ~~~
 
-__________________
 
-#### **Alguns Comandos:**
+
+Alguns Comandos:
 
 Alguns comandos, métodos e funcionalidades para manipulação
 desta estrutura:
@@ -123,12 +123,12 @@ que no conceito Dicionário é de suma importância.
 
 _____________________________________________________________________
 
-* [Tuplas](#Tuplas)
+[Tuplas](#Tuplas)
 
 Tupla - type(tuple) - () - imutável
-___________
 
-### Conceito
+
+Conceito
 
 A tulpla é uma estrutura de dado que tem funcionalidades
 também parecidas com as listas, porém, tuplas são imutáveis
@@ -166,9 +166,8 @@ quanto com alguns elementos, vejamos:
  tupla = (1,)
 ~~~
 
-__________________
 
-### Alguns Comandos
+Alguns Comandos
 
 Os comandos feitos em tuplas são praticamentos iguais usados
 em listas, excetos aqueles que alteram a estrutura, portanto,
