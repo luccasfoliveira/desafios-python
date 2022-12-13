@@ -1,6 +1,6 @@
 # Dicionários
 
-Dicionário - type(dict) - {} - chave - valor
+Dicionário - type(dict) - { } - chave - valor
 
 
 Conceito
