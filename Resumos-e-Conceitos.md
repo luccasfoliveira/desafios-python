@@ -112,6 +112,9 @@ apagará o valor que foi especidicado no índice, vejamos:
             lista = [2, 3, 5, 6, 7]
 ~~~
 
+# Matriz
+
+
 Quando eu falei que podemos inserir uma lista dentro de outra lista, torna-se uma lista bidimensional,
 em ourtas palavras, podemos dizer matriz, vamos esclarecer a criação de matriz e como acessa-las:
 ~~~python
@@ -135,7 +138,7 @@ em ourtas palavras, podemos dizer matriz, vamos esclarecer a criação de matriz
 ~~~
 Notamos que para acessar um elemento de uma matriz precisamos de "dois índices", o primeiro índice seria
 a linha que estamos e o segundo índice seria a coluna, neste caso se eu quero obter o número 36, eu utilizo
-a sintaxe M[3][3] = 36 (na matriz gerada)
+a sintaxe M[3][3] = 36 (na matriz gerada).
 
 _____________________________________________________________________
 
