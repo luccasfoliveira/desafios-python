@@ -8,10 +8,10 @@
     :construction:  Projeto em construção  :construction:
 </h4>
 
-# :hammer: Funcionalidades do projeto
+# :hammer: Objetivos:
 
-- `1ª Funcionalidade`: Expor meu conhecimento gradativamente
-- `2ª Funcionalidade`: Ajudar as pessoas de alguma forma
+- `1ª Objetivo`: Expor meu conhecimento gradativamente
+- `2ª Objetivo`: Ajudar as pessoas de alguma forma
 
 
 # Índice 
