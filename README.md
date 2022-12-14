@@ -8,7 +8,7 @@
     :construction:  Projeto em construção  :construction:
 </h4>
 
-# :hammer: Objetivos:
+# 👾 Objetivos:
 
 - `1ª Objetivo`: Expor meu conhecimento gradativamente
 - `2ª Objetivo`: Ajudar as pessoas de alguma forma
