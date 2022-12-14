@@ -1,6 +1,6 @@
 # Lista de Exercícios com Listas:
 
-1.) [Considerando o exemplo anterior, faça um algoritmo que leia um vetor de 10 números inteiros e calcule e mostre o maior  e o menor elementos do vetor.](Ex_001.py)
+1.) [Faça um algoritmo que leia um vetor de 10 números inteiros e calcule e mostre o maior  e o menor elementos do vetor.](Ex_001.py)
 
 2.) [Elabore um algoritmo que leia 2 vetores de 10 números inteiros cada e em seguida calcule e imprima um terceiro vetor formado pela soma dos valores respectivos dos vetores lidos.](Ex_002.py)
 
