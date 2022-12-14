@@ -1,3 +1,97 @@
+# Listas
+
+Lista - type(list) - [  ] - mutável
+_________
+Conceito:
+
+Lista é uma estrutura de dados capaz de amarzenar mais de um tipo valor, ou seja,
+você cria uma variável composta por diversos valores (vetor), ou se preferir uma
+lista/vetor vazio. As listas tem a função de guardar vários valores, e o acesso
+a esses valores é definido por meios de seus índices que são valores int.
+
+_________________________________________________________________________________
+Há algumas maneiras de você criar uma lista, vazia ou com alguns elementos, as
+categorias de valores que podem ser inseridos numa lista inclui qualquer um:
+int., str., bool, tupla, dict., ou até mesmo uma lista dentro de uma lista,
+vejamos alguns exemplos:
+~~~python
+            # lista vazia
+            lista = []
+            lista = list()
+
+            # lista já com valores definidos
+            lista = [1, 2, 3, 4, 5, 6, 7]
+            lista = ['Luccas', 'Lindo', True, 27.0]
+
+            # ou se preferir, você pode já estabelecer um espaço na memória
+            lista = [0]*10 # lista tamanho 10, todos valores = 0
+~~~
+
+__________________
+Alguns comandos, métodos e funcionalidades para manipulação
+desta estrutura:
+
+Vimos como criar lista, e sabemos que o acesso aos elementos da lista ocorre por índices,
+por exemplo:
+~~~python
+            lista = [1, 2, 3, 4, 5, 6, 7]
+            lista[0] # --> 1
+            lista[1] # --> 2
+~~~
+Podemos também acessar os valores com valores negativos, veja:
+~~~python
+            lista = [1, 2, 3, 4, 5, 6, 7]
+            lista[-1] # --> 7
+            lista[-2] # --> 6
+~~~
+
+Como em Python os índices começam com o valor 0, sabemos que uma lista com tamanho sete,
+o índice vai até seis (0=1, 1=2, 2=3, 3=4, 4=5, 5=6, 6=7, no caso do exemplo acima),
+e para descobrirmos o tamnho da lista, usamos a função len(), esta
+função retorna um número inteiro, demosntrando a quantidade de elementos contidos numa
+lista, aqui não podemos confundir o número que a função len() retorna com os índices,
+isto pode acorrer quando usamos a funcionalidade for, para percorrer uma lista.
+
+Uma maneira de adicionarmos um item numa lista é usando o método .apeend(), com ele você
+consegue adicionar o valor que deseja na última posição da lista, há uma outra maneira de
+"adicionar" (trocar) um elemento da lista, quando você já tem os elementos definidos, usando
+a sintaxe lista[indice] = valor:
+~~~python
+            lista = [1, 2, 3, 4, 5, 6, 7]
+            lista.append(8) # lista = [1, 2, 3, 4, 5, 6, 7, 8]
+
+            lista[3] = -4
+            lista = [1, 2, 3, -4, 5, 6, 7]
+~~~
+O métodos .extend([]) também adiciona uma lista dentro de outra lista, também podemos pensar que ele
+faz um update da lista que vocçe seja expandir, ele trabalha o objeto de forma iteravel, percorrendo-a, vejamos:
+~~~python
+            lista = [1, 2, 3, 4, 5, 6, 7]
+            lista.extend([1, 2, 3, 4]) # lista = [1, 2, 3, 4, 5, 6, 7, 1, 2, 3, 4]
+
+            lista.append([1, 2, 3])
+            lista = [1, 2, 3, 4, 5, 6, 7, 1, 2, 3, 4, [1, 2, 3]]
+~~~
+Note que o .append() trabalha de forma grosseira, e simplesmente adiciona o objeto por completo, já na .extend(),
+ele analisa o objeto, faz a iteração dos elementos de forma única, e os transoformas em elementos.
+
+Outro método importante no mundo da lista é o .pop(), e o del lista[indice]. Estes dois
+comandos removem o elemento da lista, e o método .clear(), apaga toda a lista. Vale ressaltar que
+o método .pop(), se não definido o indíce para ser removido, ele sempre removerá o último por
+padrão, e ainda, nos retornará o valor removido, e o comando del não retorna nenhum valor e simplesmente
+apagará o valor que foi especidicado no índice, vejamos:
+~~~python
+            lista = [1, 2, 3, 4, 5, 6, 7]
+            x = lista.pop(3) #
+            x = 4
+            lista = [1, 2, 3, 5, 6, 7]
+            lista.pop()
+            7
+            del a[0]
+            lista = [2, 3, 5, 6, 7]
+~~~
+
+
 # Lista de Exercícios com Listas:
 
 1.) [Faça um algoritmo que leia um vetor de 10 números inteiros e calcule e mostre o maior  e o menor elementos do vetor.](Ex_001.py)
