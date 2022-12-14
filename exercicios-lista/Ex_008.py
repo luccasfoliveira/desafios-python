@@ -17,16 +17,11 @@ while True:
             cont += 1
 
     print(f'Nota: {cont}')
-    if cont > 6:
-        print('Aluno aprovado\n')
-    else:
-        print('Aluno reprovado')
+    print('Aluno aprovado\n' if cont > 6 else 'Aluno reprovado')
 
     while True:
         resp = input('\nExiste outro candidato [S/N]? ').upper().split()[0]
-        if resp not in ['S', 'N']:
-            print('Resposta Inválida...')
-        else:
-            break
-    if resp == 'N':
-        break
+        if resp in ['S', 'N']: break
+        print('Resposta Inválida...')
+
+    if resp == 'N': break

@@ -9,4 +9,7 @@ for i in range(10):
     lista[i] = lista[i + 10]
     lista[i + 10] = aux
 print(lista)
+'''
+outra forma de realizar a troca de valores - desempacotamento 
 lista[i], lista[i + 10] = lista[i + 10], lista[i]
+'''
