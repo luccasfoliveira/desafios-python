@@ -18,6 +18,127 @@
 * [Tuplas](#Tuplas)
 * [Funções](#Funcoes)
 
+
+# Listas
+
+Lista - type(list) - [  ] - mutável
+_________
+Conceito:
+
+Lista é uma estrutura de dados capaz de amarzenar mais de um tipo valor, ou seja,
+você cria uma variável composta por diversos valores (vetor), ou se preferir uma
+lista/vetor vazio. As listas tem a função de guardar vários valores, e o acesso
+a esses valores é definido por meios de seus índices que são valores int.
+
+_________________________________________________________________________________
+Há algumas maneiras de você criar uma lista, vazia ou com alguns elementos, as
+categorias de valores que podem ser inseridos numa lista inclui qualquer um:
+int., str., bool, tupla, dict., ou até mesmo uma lista dentro de uma lista,
+vejamos alguns exemplos:
+~~~python
+            # lista vazia
+            lista = []
+            lista = list()
+
+            # lista já com valores definidos
+            lista = [1, 2, 3, 4, 5, 6, 7]
+            lista = ['Luccas', 'Lindo', True, 27.0]
+
+            # ou se preferir, você pode já estabelecer um espaço na memória
+            lista = [0]*10 # lista tamanho 10, todos valores = 0
+~~~
+
+__________________
+Alguns comandos, métodos e funcionalidades para manipulação
+desta estrutura:
+
+Vimos como criar lista, e sabemos que o acesso aos elementos da lista ocorre por índices,
+por exemplo:
+~~~python
+            lista = [1, 2, 3, 4, 5, 6, 7]
+            lista[0] # --> 1
+            lista[1] # --> 2
+~~~
+Podemos também acessar os valores com valores negativos, veja:
+~~~python
+            lista = [1, 2, 3, 4, 5, 6, 7]
+            lista[-1] # --> 7
+            lista[-2] # --> 6
+~~~
+
+Como em Python os índices começam com o valor 0, sabemos que uma lista com tamanho sete,
+o índice vai até seis (0=1, 1=2, 2=3, 3=4, 4=5, 5=6, 6=7, no caso do exemplo acima),
+e para descobrirmos o tamnho da lista, usamos a função len(), esta
+função retorna um número inteiro, demosntrando a quantidade de elementos contidos numa
+lista, aqui não podemos confundir o número que a função len() retorna com os índices,
+isto pode acorrer quando usamos a funcionalidade for, para percorrer uma lista.
+
+Uma maneira de adicionarmos um item numa lista é usando o método .apeend(), com ele você
+consegue adicionar o valor que deseja na última posição da lista, há uma outra maneira de
+"adicionar" (trocar) um elemento da lista, quando você já tem os elementos definidos, usando
+a sintaxe lista[indice] = valor:
+~~~python
+            lista = [1, 2, 3, 4, 5, 6, 7]
+            lista.append(8) # lista = [1, 2, 3, 4, 5, 6, 7, 8]
+
+            lista[3] = -4
+            lista = [1, 2, 3, -4, 5, 6, 7]
+~~~
+O métodos .extend([]) também adiciona uma lista dentro de outra lista, também podemos pensar que ele
+faz um update da lista que vocçe seja expandir, ele trabalha o objeto de forma iteravel, percorrendo-a, vejamos:
+~~~python
+            lista = [1, 2, 3, 4, 5, 6, 7]
+            lista.extend([1, 2, 3, 4]) # lista = [1, 2, 3, 4, 5, 6, 7, 1, 2, 3, 4]
+
+            lista.append([1, 2, 3])
+            lista = [1, 2, 3, 4, 5, 6, 7, 1, 2, 3, 4, [1, 2, 3]]
+~~~
+Note que o .append() trabalha de forma grosseira, e simplesmente adiciona o objeto por completo, já na .extend(),
+ele analisa o objeto, faz a iteração dos elementos de forma única, e os transoformas em elementos.
+
+Outro método importante no mundo da lista é o .pop(), e o del lista[indice]. Estes dois
+comandos removem o elemento da lista, e o método .clear(), apaga toda a lista. Vale ressaltar que
+o método .pop(), se não definido o indíce para ser removido, ele sempre removerá o último por
+padrão, e ainda, nos retornará o valor removido, e o comando del não retorna nenhum valor e simplesmente
+apagará o valor que foi especidicado no índice, vejamos:
+~~~python
+            lista = [1, 2, 3, 4, 5, 6, 7]
+            x = lista.pop(3) #
+            x = 4
+            lista = [1, 2, 3, 5, 6, 7]
+            lista.pop()
+            7
+            del a[0]
+            lista = [2, 3, 5, 6, 7]
+~~~
+
+Quando eu falei que podemos inserir uma lista dentro de outra lista, torna-se uma lista bidimensional,
+em ourtas palavras, podemos dizer matriz, vamos esclarecer a criação de matriz e como acessa-las:
+~~~python
+            from random import randint
+            
+            M = [0]*5
+            for i in range(5):
+                M[i] = [0]*5 # note que estou acessando o primeiro elemento e substituindo por uma lista
+                for j in range(5):
+                    # estou aqui acessando os elementos nas listas criadas anteriormente
+                    # essa é a sintaxe o i correponde a linha e j a coluna
+                    M[i][j] = randint(10, 50)
+                print(*M[i])
+                
+            '''saida:
+                    25 14 43 26 45
+                    22 32 46 41 45
+                    29 31 41 30 24
+                    23 28 16 36 29
+                    43 45 44 31 37'''
+~~~
+Notamos que para acessar um elemento de uma matriz precisamos de "dois índices", o primeiro índice seria
+a linha que estamos e o segundo índice seria a coluna, neste caso se eu quero obter o número 36, eu utilizo
+a sintaxe M[3][3] = 36 (na matriz gerada)
+
+_____________________________________________________________________
+
 # Dicionários
 
 Dicionário - type(dict) - {   } - chave - valor
