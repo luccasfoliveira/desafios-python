@@ -21,7 +21,7 @@
 
 10.) [Elabore um algoritmo que leia dois (A e B) vetores de 10 elementos inteiros cada. Calcule um terceiro vetor formado pela intersecção ( C ) dos vetores lidos. (Elementos que existem em ambos os vetores A e B, não importando suas posições).](Ex_010.py)
 
-11.) [Idem ao 5, porem gerando o vetor união de A com B (Todos os elementos de A e somente os elementos de B que não existem em A).](Ex_011.py)
+11.) [Idem ao 10, porem gerando o vetor união de A com B (Todos os elementos de A e somente os elementos de B que não existem em A).](Ex_011.py)
 
 12.) [Elabore um algoritmo que leia um vetor de 10 elementos e ordene os vetores de forma crescente. (Pesquise o algoritmo Bubble Sort).](Ex_012.py)
 
