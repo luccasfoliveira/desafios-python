@@ -103,13 +103,35 @@ padrão, e ainda, nos retornará o valor removido, e o comando del não retorna 
 apagará o valor que foi especidicado no índice, vejamos:
 ~~~python
             lista = [1, 2, 3, 4, 5, 6, 7]
-            x = lista.pop(3) #
+            x = lista.pop(3)
             x = 4
             lista = [1, 2, 3, 5, 6, 7]
             lista.pop()
             7
             del a[0]
             lista = [2, 3, 5, 6, 7]
+~~~
+Em qualquer linguagem de programação é de suma importância temos uma estrutura ordenada, ou seja,
+uma estrutura que segue um padrão, crescente ou decrescente, em Python há um método .sort(), e uma
+função sorted(), para realizar o ordenamento das listas, o método .sort() permite que você apenas
+visualize a lista ordenada, diferente da função sorted(), onde você pode guardar a lista ordenada
+numa variável, por exemplo, veja:
+~~~python
+            lista = [7, 5, 4, 8, 9, 1, 2, 3, 6]
+            lista.sort() # --> [1, 2, 3, 4, 5, 6, 7, 8, 9]
+            x = lista.sort() # --> x = None
+            x = sorted(lista) # --> [1, 2, 3, 4, 5, 6, 7, 8, 9]
+~~~
+A diferença entre os dois comandos é que o método realiza o ordenamento, porém, se há uma necessidade
+de você atribuir esse método numa variável, o valor será None. Na função, ocorre o oposto, quando
+você chama a função, ela retorna a lista ordenada, porém a lista não fica ordenada, contudo, você pode
+guardar o retorno desta função numa variável.
+
+Se houver a necessidade de realizar o ordenamento de forma inversa, segue os comandos:
+~~~python
+            lista = [7, 5, 4, 8, 9, 1, 2, 3, 6]
+            lista.sort(reverse = True) # --> [9, 8, 7, 6, 5, 4, 3, 2, 1]
+            x = sorted(lista, reverse = True) # --> [9, 8, 7, 6, 5, 4, 3, 2, 1]
 ~~~
 
 # Matrizes
