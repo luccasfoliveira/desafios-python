@@ -7,17 +7,15 @@ while True:
         print('Número repetido, digite novamente...\n')
     else:
         a.append(num)
-        if len(a) == 5:
-            print()
-            break
+        if len(a) == 5: break
+print()
 while True:
     num = int(input('Digite um número do conjunto b: '))
     if num in b:
         print('Número repetido, digite novamente...\n')
     else:
         b.append(num)
-        if len(b) == 5:
-            break
+        if len(b) == 5: break
 
 print(f'a = {a}\nb = {b}')
 
