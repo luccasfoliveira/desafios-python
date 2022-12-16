@@ -28,7 +28,7 @@ a sintaxe M[3][3] = 36 (na matriz gerada).
 
 # Matrizes - Exercícios
 
-1.) Elabore um programa que leia uma matriz 5x5 e calcule e mostre a diagonal principal.
+1.) [Elabore um programa que leia uma matriz 5x5 e calcule e mostre a diagonal principal.](Ex_001)
 
 ![image](https://user-images.githubusercontent.com/102065560/208008758-4c2ee8e1-2c11-4df1-8a92-ba770cbd80f0.png)
 
