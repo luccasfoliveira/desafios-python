@@ -15,6 +15,7 @@ for i in range(linha):
         A[i][j] = randint(10, 50)
     print(*A[i])
 print()
+print('TRANSPOSTA')
 T = [0]*len(A[0])
 for i in range(len(T)):
     T[i] = [0]*len(A)
