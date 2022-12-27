@@ -1,14 +1,10 @@
 from random import randint
 
-numeros = []
-for i in range(20):
-    numeros.append(randint(0, 100))
-print(*numeros)
+numeros = [randint(0, 100) for i in range(20)]
+print(numeros)
 
-pares = []
-impares = []
-for i in numeros:
-    pares.append(i) if i % 2 == 0 else impares.append(i)
+pares = [i for i in numeros if i % 2 == 0]
+impares = [i for i in numeros if i % 2 != 0]
 
-print(f'\nNúmeros Pares: {pares}\n'
-      f'Números Ímpares: {impares}')
+print(f'\nNúmeros Pares:', *pares, '\n'
+      f'Números Ímpares:', *impares)

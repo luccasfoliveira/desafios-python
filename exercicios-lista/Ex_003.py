@@ -1,4 +1,2 @@
-lista = []
-for i in range(20):
-    lista.append((i*2)+1)
+lista = [(i*2)+1 for i in range(20)]
 print(lista)

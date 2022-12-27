@@ -1,8 +1,6 @@
 from random import randint
 
-lista = []
-for i in range(20):
-    lista.append(randint(0, 100))
+lista = [randint(0, 100) for i in range(20)]
 print(lista)
 for i in range(10):
     aux = lista[i]

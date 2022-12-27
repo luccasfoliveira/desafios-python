@@ -1,10 +1,7 @@
 from random import randint
 
-a = []
-b = []
-for i in range(10):
-    a.append(randint(0, 10))
-    b.append(randint(0, 10))
+a = [randint(0, 10) for i in range(10)]
+b = [randint(0, 10) for i in range(10)]
 print(f'a = {a}\nb = {b}')
 
 c = []
