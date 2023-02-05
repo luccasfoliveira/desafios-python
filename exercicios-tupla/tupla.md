@@ -127,7 +127,7 @@ solução:
  //b = 1
  //c = [2, 3, 4, 5, 6, 7, 8, 9, 10]
 
- b, c, d = a # erro de exeção
+ b, c, d = a # erro de exceção, muitos valores para desempacotar
 
  *b, c, d = a
  // b = [1, 2, 3, 4, 5, 6, 7, 8]
