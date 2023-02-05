@@ -380,7 +380,7 @@ correspondem aos índices da seguinte forma:
 ~~~python
  # sem asterisco:
  a = tuple(range(1, 11)
- b, c = a # erro de exceção
+ b, c = a # erro de exceção, muitos valores para desempacotar
 ~~~
 
 O caso acima apresentará erro, pois, o tamanho da tupla é maior que a
