@@ -36,9 +36,7 @@ quanto com alguns elementos, vejamos:
  # note que neste caso há uma vírgula, a vírgula é necessária,
  # pois se não houvesse, a variável seria do tipo int., str,
  # float, o que for.
- tupla = <valor>,
-
- # sem a vírgula o tipo seria inteiro (neste caso)
+ tupla = <valor>  # sem a vírgula o tipo seria inteiro (neste caso)
  tupla = (1,)
 ~~~
 
@@ -127,7 +125,7 @@ solução:
  //b = 1
  //c = [2, 3, 4, 5, 6, 7, 8, 9, 10]
 
- b, c, d = a # erro de exceção, muitos valores para desempacotar
+ b, c, d = a # erro de exeção
 
  *b, c, d = a
  // b = [1, 2, 3, 4, 5, 6, 7, 8]

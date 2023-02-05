@@ -8,11 +8,15 @@
 
 * [Página Principal](README.md)
 
-
+* [Entrada e Saída (Inválido)](#Entrada-e-Saída)
+* [Sequenciais (Inválido)](#Sequenciais)
+* [Estrutura de Controle - Condições (Inválido)](#Estrutura-de-Controle---Condições)
+* [Estrutura de Repetições (Inválido)](#Estrutura-de-Repetições)
 * [Listas](#Listas)
 * [Matrizes](#Matrizes)
 * [Dicionários](#dicionários)
 * [Tuplas](#Tuplas)
+* [Funções (Inválido)](#Funcoes)
 
 
 # Listas
@@ -380,7 +384,7 @@ correspondem aos índices da seguinte forma:
 ~~~python
  # sem asterisco:
  a = tuple(range(1, 11)
- b, c = a # erro de exceção, muitos valores para desempacotar
+ b, c = a # erro de exceção
 ~~~
 
 O caso acima apresentará erro, pois, o tamanho da tupla é maior que a
@@ -396,7 +400,7 @@ solução:
  //b = 1
  //c = [2, 3, 4, 5, 6, 7, 8, 9, 10]
 
- b, c, d = a # erro de exeção
+ b, c, d = a # erro de exceção
 
  *b, c, d = a
  // b = [1, 2, 3, 4, 5, 6, 7, 8]
