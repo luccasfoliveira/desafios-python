@@ -1,5 +1,7 @@
 # Matrizes
 
+Leia o tópico 'listas':
+
 Quando eu falei que podemos inserir uma lista dentro de outra lista, torna-se uma lista bidimensional,
 em ourtas palavras, podemos dizer matriz, vamos esclarecer a criação de matriz e como acessa-las:
 ~~~python
