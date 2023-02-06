@@ -44,4 +44,4 @@ Retorne o valor e imprima.](Ex_006)
 
     g. Retornar a média dos valores do vetor
 
-Implemente métodos para cada opção.
+        Implemente métodos para cada opção.
