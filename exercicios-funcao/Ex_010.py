@@ -43,7 +43,7 @@ class GerarVetor:
 
         vetor = self.ordenar_vetor()
 
-        # cariáveis para manipular a busca
+        # variáveis para manipular a busca
         inicio = 0
         fim = len(vetor)//2 - 1
 
