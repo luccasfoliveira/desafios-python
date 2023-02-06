@@ -30,4 +30,4 @@
 * [Matrizes](exercicios-matriz/matriz.md)
 * [Dicionários](exercicios-dicionario/dicionario.md)
 * [Tuplas](exercicios-tupla/tupla.md)
-* [Funções (Inválido)](exercicios-funcao/funcao.md)
+* [Funções](exercicios-funcao/funcao.md)
